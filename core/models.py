@@ -13,3 +13,5 @@ class Movie(models.Model):
     name = models.CharField(max_length=100)
     author = models.CharField(max_length=200)
     
+class theatre(models.Model):
+    name = models.CharField(max_length=100)
