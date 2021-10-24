@@ -8,3 +8,8 @@ class Data(models.Model):
     tag = models.CharField(max_length=100)
     word = models.TextField(max_length=100)
     count = models.IntegerField()
+
+class Movie(models.Model):
+    name = models.CharField(max_length=100)
+    author = models.CharField(max_length=200)
+    
