@@ -30,6 +30,9 @@ class Library(models.Model):
 
 class Movie_Actor(models.Model):
     name = models.CharField(max_length=100)
+
+class Book(models.Model):
+    name = models.CharField(max_length=100)
     
 class Movie_Author(models.Model):
     name = models.ForeignKey(Author, on_delete=models.CASCADE)
