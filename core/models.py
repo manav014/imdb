@@ -22,6 +22,9 @@ class Author(models.Model):
 class Actor(models.Model):
     name = models.CharField(max_length=100)
 
+class Book_Author(models.Model):
+    name = models.CharField(max_length=100)
+
 class Library(models.Model):
     name = models.CharField(max_length=100)
     
