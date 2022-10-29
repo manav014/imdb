@@ -39,6 +39,9 @@ class Payment(models.Model):
  
 class Cart(models.Model):
     name = models.CharField(max_length=100)
+  
+class Shopping(models.Model):
+    name = models.CharField(max_length=100)
     
  class Library_Author(models.Model):
     name = models.CharField(max_length=100)
