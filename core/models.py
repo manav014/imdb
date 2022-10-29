@@ -36,6 +36,9 @@ class Book(models.Model):
  
 class Payment(models.Model):
     name = models.CharField(max_length=100)
+ 
+class Cart(models.Model):
+    name = models.CharField(max_length=100)
     
 class Movie_Author(models.Model):
     name = models.ForeignKey(Author, on_delete=models.CASCADE)
